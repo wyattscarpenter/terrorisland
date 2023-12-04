@@ -1,0 +1,6 @@
+# Treat these hash-marked parts as comments instead of slogans.
+# I got these from scanning through archive.org captures of the site. These are the only four I found, but I didn't search exhaustively.
+"the photocomic that's not a photocomic"
+Serious gamepieces. Serious photocomic. 
+the webcomic that takes place on a dude's sink and has chess pieces
+"some photos of chess pieces don't want to buy groceries?"
