@@ -1,6 +1,6 @@
 # Foreword by the compiler (Wyatt S Carpenter)
 
-Hello and welcome to _Terror Island_, the comic from http://www.terrorisland.net by Ben Heaton and Lewis Powell, the book. I guess that technically makes this a graphic novel.
+Hello and welcome to _Terror Island_, the comic from http://www.terrorisland.net by Ben Heaton and Lewis Powell; the book. I guess that technically makes this a graphic novel.
 
 I made this book version of _Terror Island_ for my own personal use and enjoyment. I didn't want any money or to have to get in contact with the original authors. However, this does mean that the book is not as good as it could be. Specifically, the images are small, and therefore don't look as good as they could (Ben's annotation on Strip #317 implies there are higher-quality photos hoarded, and possibly higher-quality entire strips?). Also, I didn't try very hard on making every aspect of the book look good — actually, I did try pretty hard, but then I got tired.
 

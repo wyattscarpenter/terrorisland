@@ -1,0 +1,2 @@
+<script.*?>[\S\s]*?</script>
+<!-- script element (that is, a javascript tag) omitted -->
