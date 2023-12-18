@@ -1,2 +1,18 @@
-<script.*?>[\S\s]*?</script>
+<link rel="stylesheet" type="text\/css" href="stylesheet.css"\/>
+
+<link rel="stylesheet" type="text\/css" href="page_styles.css"\/>
+
+<script[\S\s]*?>[\S\s]*?<\/script>
 <!-- script element (that is, a javascript tag) omitted -->
+[\S\s]*<div class="content">
+<html><body><div class="content">
+<div class="thinbuttons">[\S\s]*
+</div></body></html>
+http://www.waxintellectual.com/main.css
+main.css
+http.?://terrorisland.net/images/buttons/bookmark.png
+../images/buttons/bookmark.png
+<br \/><\/span>[\s\S]*?<\/div>
+</span></div>
+title="([^"]*)"\s*alt="it's hard to appreciate this comic strip without seeing it"[\s\S]*?\/>
+/><center><i>\1</i></center>
