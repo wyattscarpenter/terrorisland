@@ -37,12 +37,12 @@ typeset_book () {
     --search-replace replacements.txt \
     --language en --cover cover.pdn.png \
     --authors "Ben Heaton&Lewis Powell" --book-producer "Wyatt S Carpenter" --pubdate 2023 --title "Terror Island" --rating 5 \
-    --base-font-size 10 --smarten-punctuation --extra-css "* {box-sizing: border-box; font-size: normal;} p { text-indent: 1.5em; margin: 0em !important; padding-left: 0em !important; } h4 {margin-bottom: 0em; margin-top: 0em;} body {margin-left: 0em; margin-right: 0em;} div.title /* this is just styling from the original page that we wiped out by removing the CSS, and want to get back. */ { background:#eeeeee;	 color:#000000; padding:2px; border-left:15px solid #333333; border-bottom:1px solid #333333; font-size:small; font-weight:bold; }" \
+    --base-font-size 10 --smarten-punctuation --extra-css "* {box-sizing: border-box; font-size: normal;} p { text-indent: 1.5em; margin: 0em !important; padding-left: 0em !important; } h4 {margin-bottom: 0em; margin-top: 0.3em;} body {margin-left: 0em; margin-right: 0em;} div.title /* this is just styling from the original page that we wiped out by removing the CSS, and want to get back. */ { background:#eeeeee; color:#000000; padding:2px; border-left:15px solid #333333; border-bottom:1px solid #333333; font-size:small; font-weight:bold; } /*here we unsuccessfully try to correct nonsense it otherwise does*/ .calibre1 {margin: 0em !important} .strip1 {padding: 0em !important}" \
     $2 #&>/dev/null
 
 }
 
-typeset_book ".pdf" '--paper-size a5 --pdf-page-margin-bottom 0 --pdf-page-margin-left 0 --pdf-page-margin-right 0 --pdf-page-margin-top 0' & # pdf options
+typeset_book ".pdf" '--custom-size 5.245x8.5  --pdf-page-margin-bottom 0 --pdf-page-margin-left 0 --pdf-page-margin-right 0 --pdf-page-margin-top 0 --margin-bottom 0 --margin-top 0 --margin-left 0 --margin-right 0 ' & # pdf options #interestingly, --pdf-footer-template <center>_PAGENUM_</center> gets an out-of-range error (calibre 6.11) #--paper-size a5 is closest to US trade paperback (6x9in) of the default options, but none are close enough, nor close enough to what we want...
 rm -r books/terror_island_unofficial-wyattscarpenter-2023
 typeset_book & # This will create the OEB format
 wait

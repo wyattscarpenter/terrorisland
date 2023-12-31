@@ -54,7 +54,7 @@
   font-size: 1em;
   font-weight: bold;
   page-break-before: always;
-  margin: 0.67em 0;
+  margin: 0;
 }
 .calibre9 {
   box-sizing: border-box;
@@ -257,7 +257,7 @@
   display: block;
   font-size: 1.28571em;
   font-weight: bold;
-  margin: 0;
+  margin: 0.3em 0 0;
 }
 .calibre35 {
   box-sizing: border-box;
@@ -296,7 +296,7 @@
   font-size: 1.28571em;
   font-weight: bold;
   text-align: center;
-  margin: 0;
+  margin: 0.3em 0 0;
 }
 .calibre41 {
   box-sizing: border-box;
@@ -321,14 +321,14 @@
   font-size: 1em;
   font-weight: bold;
   text-align: right;
-  margin: 0;
+  margin: 0.3em 0 0;
 }
 .calibre45 {
   box-sizing: border-box;
   display: block;
   font-size: 1em;
   font-weight: bold;
-  margin: 0;
+  margin: 0.3em 0 0;
 }
 .calibre46 {
   box-sizing: border-box;
@@ -394,11 +394,6 @@
 }
 .calibre56 {
   box-sizing: border-box;
-  display: none;
-  font-size: 1em;
-}
-.calibre57 {
-  box-sizing: border-box;
   font-size: 1em;
   height: auto;
   width: auto;
@@ -436,13 +431,6 @@
   display: block;
   font-size: 1em;
   text-align: left;
-  padding: 3px;
-}
-.strip1 {
-  box-sizing: border-box;
-  display: block;
-  font-size: 1em;
-  padding: 3px;
 }
 .title {
   background: #eee;

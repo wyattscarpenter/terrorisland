@@ -2,6 +2,10 @@
 
 <link rel="stylesheet" type="text\/css" href="page_styles.css"\/>
 
+<p><object width="425"[\S\s]*?</p>
+
+padding:3px;
+
 <script[\S\s]*?>[\S\s]*?<\/script>
 <!-- script element (that is, a javascript tag) omitted -->
 [\S\s]*<div class="content">
